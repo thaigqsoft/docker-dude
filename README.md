@@ -2,9 +2,9 @@ Howto run
 #clone data from github
 git clone https://github.com/thaigqsoft/docker-dude.git  docker-dude
 cd  docker-dude
-#build from script Docker
+##build from script Docker
 docker build -t mikrotik-the-dude .
-#RUN CMD 
+####RUN CMD 
     docker run --name dude \
       --privileged \
       --detach \
@@ -15,10 +15,10 @@ docker build -t mikrotik-the-dude .
       mikrotik-the-dude:latest
 
 
-#and your Dude is ready. You can stop it with
+#####and your Dude is ready. You can stop it with
 
     docker stop dude
 
-#and run it again with
+######and run it again with
 
     docker start dude
