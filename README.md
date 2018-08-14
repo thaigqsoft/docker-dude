@@ -3,10 +3,10 @@ Howto run
 git clone https://github.com/thaigqsoft/docker-dude.git  docker-dude
 cd  docker-dude
 
-##build from script Docker
-docker build -t mikrotik-the-dude .
+##build from script Docker \
+docker build -t mikrotik-the-dude . \
 
-####RUN CMD 
+####RUN CMD   \
     docker run --name dude \\\
       --privileged \\\
       --detach \\\
